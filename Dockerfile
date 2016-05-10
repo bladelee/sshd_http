@@ -7,5 +7,5 @@ ENV LANGUAGE zh_CN:zh:en_US:en
 
 EXPOSE 80
 
-CMD  ["/usr/bin/python", "http_svr.py", "80"]
+CMD  ["python", "http_svr.py", "80"]
 
