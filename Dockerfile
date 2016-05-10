@@ -4,8 +4,9 @@ MAINTAINER zhoujunqian <zjqzero@gmail.com>
 
 ENV LANG zh_CN.UTF-8
 ENV LANGUAGE zh_CN:zh:en_US:en
+COPY http_srv.py http_srv.py
 
 EXPOSE 80
 
-CMD  ["python", "http_svr.py", "80"]
+CMD  ["/usr/local/bin/python", "http_srv.py", "80"]
 
