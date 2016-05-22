@@ -6,6 +6,7 @@ ENV LANG zh_CN.UTF-8
 ENV LANGUAGE zh_CN:zh:en_US:en
 
 COPY http_srv.py /var/app/http_srv.py
+COPY PageTransition /home/
 
 WORKDIR /home
 
