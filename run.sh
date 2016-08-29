@@ -1,2 +1,2 @@
 nginx
-python /var/app/http_srv.py 8080
+python /var/app/http_srv.py 80
